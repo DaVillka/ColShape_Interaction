@@ -18,6 +18,7 @@ namespace Interaction
             if (shape.HasData("colShapeInteraction")) shape.GetData<Action<Player, ColShape>>("colShapeInteraction")?.Invoke(player, shape);
         }
     }
+    //Клас расширения персонажа
     public static class player_exceptions
     {
         //Добавляем в персонажа колшейп на который он встал
